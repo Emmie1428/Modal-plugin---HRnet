@@ -1,0 +1,31 @@
+.overlay {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: max-content;
+    height: max-content;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.content {
+    background-color: white;
+    border-radius: 8px;
+    position: relative;
+    text-align: center;
+    min-width: 300px;
+    padding: 2rem;
+    border: 1px solid;
+}
+
+.closeButton {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.message {
+    display: contents;
+    align-self: center;
+}
