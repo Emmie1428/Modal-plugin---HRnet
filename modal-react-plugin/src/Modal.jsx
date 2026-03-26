@@ -1,4 +1,4 @@
-import "../src/Modal.module.css"
+import "./Modal.css"
 
 function Modal({ isOpen, onClose, message}) {
     if (!isOpen) 

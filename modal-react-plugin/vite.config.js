@@ -10,11 +10,13 @@ export default defineConfig({
       name: "Modal",
       fileName: "modal"
     },
-    rollUpOptions: {
-      external: ["react"],
+   rollupOptions: {                        
+    external: ["react", "react-dom", "react/jsx-runtime"],  
       output: {
         globals: {
-          react: "React"
+          react: "React",
+          "react-dom": "ReactDOM",
+          "react/jsx-runtime": "ReactJsxRuntime"
         }
       }
     }
