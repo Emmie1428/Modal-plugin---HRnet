@@ -1,14 +1,14 @@
 import "./Modal.css"
 
-function Modal({ isOpen, onClose, message}) {
+function Modal({ isOpen, onClose, message, overlayClassName, contentClassName, closeButtonClassName, messageClassName}) {
     if (!isOpen) 
         return null
 
     return(
-        <div className="overlay">
-            <div className="content">
-                <button className="closeButton" onClick={onClose}>X</button>
-                <p className="message">{message}</p>
+        <div className={`overlay ${overlayClassName || ""}`}>
+            <div className={`content ${contentClassName || ""}`}>
+                <button className={`closeButton ${closeButtonClassName || ""}`} onClick={onClose}>X</button>
+                <p className={`message ${messageClassName || ""}`}>{message}</p>
             </div>
         </div>
     )
