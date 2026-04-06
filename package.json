@@ -2,12 +2,21 @@
   "name": "modal-react-plugin",
   "private": false,
   "version": "1.0.1",
+  "keywords": ["react", "modal", "plugin", "component"],
+  "repository": {
+      "type": "git",
+      "url": "https://github.com/Emmie1428/Modal-plugin---HRnet"
+    },
+  "author": "Emmie Gemme",
   "type": "module",
   "main": "./dist/modal.js",
   "module": "./dist/modal.js",
   "exports": {
     ".": "./dist/modal.js",
      "./dist/style.css": "./dist/style.css"
+  },
+  "engines": {
+    "node": ">=20.0.0"
   },
   "peerDependencies": {
     "react": ">17.0.0",

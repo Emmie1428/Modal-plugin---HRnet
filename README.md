@@ -41,6 +41,13 @@ The component is intentionally minimal and flexible, so it can be styled accordi
 
 ## Tech Stack
 
+### Requirements
+
+- **Node.js**: >= 20.0.0
+- **npm**: Comes with Node.js.
+- **React**: > 17.0.0
+- **Code Editor**: [Visual Studio Code](https://code.visualstudio.com/) is highly recommended.
+
 ### Peer dependencies
 
 - **React** `>17.0.0`
