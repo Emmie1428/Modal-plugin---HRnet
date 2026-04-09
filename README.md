@@ -37,6 +37,9 @@ It can be used wherever a modal dialog is needed, such as:
 
 The component is intentionally minimal and flexible, so it can be styled according to the needs of each project.
 
+### Exemple 
+![Exemple](Screenshot.PNG)
+
 ---
 
 ## Tech Stack
